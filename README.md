@@ -28,4 +28,5 @@
     - NODE_VERSION: 14.18.1
     - DATABASE_URL: {internal connection URL from the PostgreSQL database}
   - NOTE: As you develop your applications, you may need to add additional environment variables. Any variable you reference from within the code from `process.env.KEY_NAME` will need to be added to your production environment.
-  - ![image](https://user-images.githubusercontent.com/47865037/226443884-368caf34-bd63-4af3-adeb-cd6c41cd2daf.png)
+  - <img width="1225" alt="Screen Shot of Render Environment Variables" src="https://user-images.githubusercontent.com/47865037/226444595-c9f7efe8-0a32-429c-bd13-f4767817d9ca.png">
+
