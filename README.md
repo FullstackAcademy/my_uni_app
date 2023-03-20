@@ -6,12 +6,14 @@
   - `npm run start:dev` to start the server
 
 # To deploy on render.com
+#### Create the Database
 - create a new PostgreSQL service in the render dashboard, and fill out the following input fields:
   - Name
   - Region (take note of the region as you will use it later)
 - create the database
 - copy the internal database url for use when creating the Web Service
 
+#### Create the Web Service
 - create a new Web Service, and fill out the following input fields:
   - Name
   - Region (select the same region as the PostgreSQL service)
