@@ -1,20 +1,23 @@
 # To run locally
-- create a database called my_uni_app_db with the command `createdb my_uni_app_db`
-- in your terminal, from within the project directory, run the following commands:
+- Create a database called my_uni_app_db with the command `createdb my_uni_app_db`
+- In your terminal, from within the project directory, run the following commands:
   - `npm install` to install project dependencies
   - `node server/db/seed.js` to seed the database
   - `npm run start:dev` to start the server
 
 # To deploy on render.com
+
 #### Create the Database
-- create a new PostgreSQL service in the render dashboard, and fill out the following input fields:
+- Create a new PostgreSQL service in the render dashboard, and fill out the following input fields:
   - Name
   - Region (take note of the region as you will use it later)
-- create the database
-- copy the internal database url for use when creating the Web Service
+- Create the database
+- Copy the internal database url for use when creating the Web Service
 
 #### Create the Web Service
-- create a new Web Service, and fill out the following input fields:
+- Create a new Web Service
+  - Select the repo from the list of repos if you have linked your GitHub account. Alternatively, you can copy and paste a link to your repo if it is public. 
+- Fill out the following input fields:
   - Name
   - Region (select the same region as the PostgreSQL service)
   - Build Command:
